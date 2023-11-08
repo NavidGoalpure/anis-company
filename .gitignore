@@ -1,1 +1,37 @@
-node_modules
+# Ignore Node.js build output and dependencies
+node_modules/
+.next/
+
+# Ignore development server log files
+*.log
+
+# Ignore environment files (used for secrets and configuration)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore generated client-side assets
+out/
+.cache/
+public/
+
+# Ignore OS and editor-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local npm module builds
+/dist
+/.pnp
+.cacache
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore ESLint and Prettier files
+.eslintcache
+/prettier
+
+# Ignore test output
+/__tests__/tmp

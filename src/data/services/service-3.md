@@ -1,8 +1,8 @@
 ---
 #preview details
 image: "img/serv-i-3.svg"
-title: "Interior Design"
-short: "Designing and Building The Most Beautiful Custom Homes."
+title: "Granny Flats"
+short: "Unlocking Rental Potential with Granny Flat Constructions."
 
 #full details
 description0:

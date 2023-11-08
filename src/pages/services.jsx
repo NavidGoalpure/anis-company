@@ -1,29 +1,32 @@
 import { useState } from 'react';
-import PageBanner from "@components/PageBanner";
-import Layouts from "@layouts/Layouts";
+import PageBanner from '@components/PageBanner';
+import Layouts from '@layouts/Layouts';
 import Nav from 'react-bootstrap/Nav';
 import Tab from 'react-bootstrap/Tab';
-import Link from "next/link";
+import Link from 'next/link';
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.css';
 
-import { getSortedServicesData } from "@library/services";
+import { getSortedServicesData } from '@library/services';
 
-import CallToActionSection from "@components/sections/CallToAction";
-import ServicesSection from "@components/sections/Services";
-import CountersSection from "@components/sections/Counters";
+import CallToActionSection from '@components/sections/CallToAction';
+import ServicesSection from '@components/sections/Services';
+import CountersSection from '@components/sections/Counters';
 
 const Services = (props) => {
   const [isOpen, setOpen] = useState(false);
-
+  console.log('navid Props=', props);
   return (
     <Layouts>
-      <PageBanner pageTitle={"Services"} pageDesc={"our values and vaulted us to the top of our industry."} />
+      <PageBanner
+        pageTitle={'Services'}
+        pageDesc={'our values and vaulted us to the top of our industry.'}
+      />
 
-      <ServicesSection />
+      {/* <ServicesSection /> */}
 
       {/* Construction Services Start */}
-      <section className="gap no-top construction-services">
+      {/* <section className="gap no-top construction-services">
         <div className="container">
           <Tab.Container id="services-tab-content" defaultActiveKey="tab-service-0">
           <div className="row align-items-center">
@@ -101,59 +104,111 @@ const Services = (props) => {
           </div>
           </Tab.Container>
         </div>
-      </section>
+      </section> */}
       {/* Construction Services End */}
 
-      <CountersSection />
-
       {/* Video PopUp Start */}
-      <div className="video-popup">
-        <div className="container-fluid g-0">
-          <div className="row">
+      {/* <div className='video-popup'>
+        <div className='container-fluid g-0'>
+          <div className='row'>
             <figure>
-              <img className="w-100" src="/img/construction.jpeg" alt="Video PopUp Image" />
+              <img
+                className='w-100'
+                src='/img/construction.jpeg'
+                alt='Video PopUp Image'
+              />
             </figure>
-            <a className="video-play-btn" onClick={() => setOpen(true)} style={{"cursor": "pointer"}}>
-              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="35" height="56" viewBox="0 0 35 56"> <defs> <clipPath id="clip-video_arrow"> <rect width="35" height="56"/> </clipPath> </defs> <g id="video_arrow" data-name="video arrow" clipPath="url(#clip-video_arrow)"> <path id="Shape_1" data-name="Shape 1" d="M1362,5000.8,1327,4972V5027Z" transform="translate(-1326.998 -4971.996)" fill="rgba(0,0,0,0)"/> <path id="Shape_1_-_Outline" data-name="Shape 1 - Outline" d="M1333,5015.017l19.29-14.437L1333,4984.7v30.313M1327,5027V4972l35,28.807Z" transform="translate(-1326.998 -4971.996)"/> </g> </svg>
+            <a
+              className='video-play-btn'
+              onClick={() => setOpen(true)}
+              style={{ cursor: 'pointer' }}
+            >
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                xmlnsXlink='http://www.w3.org/1999/xlink'
+                width='35'
+                height='56'
+                viewBox='0 0 35 56'
+              >
+                {' '}
+                <defs>
+                  {' '}
+                  <clipPath id='clip-video_arrow'>
+                    {' '}
+                    <rect width='35' height='56' />{' '}
+                  </clipPath>{' '}
+                </defs>{' '}
+                <g
+                  id='video_arrow'
+                  data-name='video arrow'
+                  clipPath='url(#clip-video_arrow)'
+                >
+                  {' '}
+                  <path
+                    id='Shape_1'
+                    data-name='Shape 1'
+                    d='M1362,5000.8,1327,4972V5027Z'
+                    transform='translate(-1326.998 -4971.996)'
+                    fill='rgba(0,0,0,0)'
+                  />{' '}
+                  <path
+                    id='Shape_1_-_Outline'
+                    data-name='Shape 1 - Outline'
+                    d='M1333,5015.017l19.29-14.437L1333,4984.7v30.313M1327,5027V4972l35,28.807Z'
+                    transform='translate(-1326.998 -4971.996)'
+                  />{' '}
+                </g>{' '}
+              </svg>
             </a>
           </div>
         </div>
-      </div>
-      <ModalVideo channel='youtube' isOpen={isOpen} videoId="uemObN8_dcw" onClose={() => setOpen(false)} />
+      </div> */}
+      {/* <ModalVideo
+        channel='youtube'
+        isOpen={isOpen}
+        videoId='uemObN8_dcw'
+        onClose={() => setOpen(false)}
+      /> */}
       {/* Video PopUp Start */}
 
       {/* Service Style Two Start */}
-      <section className="gap service-style-two">
-        <div className="heading">
+      <section className='gap service-style-two'>
+        <div className='heading'>
           <figure>
-            <img src="/images/heading-icon.png" alt="heading-icon" />
+            <img src='/images/heading-icon.png' alt='heading-icon' />
           </figure>
           <span>What We Provide</span>
           <h2>Exclusive Services</h2>
         </div>
-        <div className="container">
-          <div className="row g-0">
+        <div className='container'>
+          <div className='row g-0'>
             {props.services.map((item, key) => (
-            <div key={`services-item-${key}`} className="col-lg-4 col-md-6 col-sm-12" >
-              <div className="service-two-box">
-                <h3><Link href={`/services/${item.id}`}>{item.title}</Link></h3>
-                <p>{item.short}</p>
-                <div className="service-two-icon d-flex-all justify-content-start">
-                  <img src={item.image} alt={item.title} />
-                  <Link href={`/services/${item.id}`}>
-                    <i className="fa-solid fa-arrow-up-long"></i>
-                  </Link>
+              <div
+                key={`services-item-${key}`}
+                className='col-lg-4 col-md-6 col-sm-12'
+              >
+                <div className='service-two-box'>
+                  <h3>
+                    <Link href={`/services/${item.id}`}>{item.title}</Link>
+                  </h3>
+                  <p>{item.short}</p>
+                  <div className='service-two-icon d-flex-all justify-content-start'>
+                    <img src={item.image} alt={item.title} />
+                    <Link href={`/services/${item.id}`}>
+                      <i className='fa-solid fa-arrow-up-long'></i>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
             ))}
           </div>
         </div>
       </section>
       {/* Service Style Two End */}
-      
+
+      <CountersSection />
+
       <CallToActionSection />
-      
     </Layouts>
   );
 };
@@ -164,7 +219,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      services: allServices
-    }
-  }
+      services: allServices,
+    },
+  };
 }

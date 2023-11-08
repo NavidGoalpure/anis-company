@@ -1,8 +1,8 @@
 ---
 #preview details
 image: "img/serv-i-2.svg"
-title: "Project Development"
-short: "Designing and Building The Most Beautiful Custom Homes."
+title: "Renovations"
+short: "Transforming spaces with expert renovations."
 
 #full details
 description0:
