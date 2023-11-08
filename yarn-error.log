@@ -1,0 +1,61 @@
+Arguments: 
+  /home/sfatman/.nvm/versions/node/v18.17.1/bin/node /home/sfatman/.nvm/versions/node/v18.17.1/bin/yarn
+
+PATH: 
+  /home/sfatman/.nvm/versions/node/v18.17.1/bin:/home/sfatman/.local/bin:/home/sfatman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.31.34:443 - Local (0.0.0.0:0)
+      at internalConnect (node:net:1067:16)
+      at defaultTriggerAsyncIdScope (node:internal/async_hooks:463:18)
+      at emitLookup (node:net:1324:9)
+      at /home/sfatman/.nvm/versions/node/v18.17.1/lib/node_modules/yarn/lib/cli.js:103587:28
+      at /home/sfatman/.nvm/versions/node/v18.17.1/lib/node_modules/yarn/lib/cli.js:103496:13
+      at module.exports.RawTask.call (/home/sfatman/.nvm/versions/node/v18.17.1/lib/node_modules/yarn/lib/cli.js:79584:19)
+      at flush (/home/sfatman/.nvm/versions/node/v18.17.1/lib/node_modules/yarn/lib/cli.js:79666:29)
+      at processTicksAndRejections (node:internal/process/task_queues:77:11)
+      at runNextTicks (node:internal/process/task_queues:64:3)
+      at process.processImmediate (node:internal/timers:447:9)
+
+npm manifest: 
+  {
+    "name": "builty-nextjs",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "date-fns": "^2.30.0",
+      "formik": "^2.4.2",
+      "gray-matter": "^4.0.3",
+      "next": "13.4.3",
+      "react": "18.2.0",
+      "react-bootstrap": "^2.8.0",
+      "react-countup": "^6.4.2",
+      "react-dom": "18.2.0",
+      "react-modal-video": "^2.0.1",
+      "remark": "^14.0.3",
+      "remark-html": "^15.0.2",
+      "sass": "^1.49.7",
+      "swiper": "^9.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
