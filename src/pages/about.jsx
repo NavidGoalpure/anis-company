@@ -1,54 +1,97 @@
-import dynamic from "next/dynamic";
+import dynamic from 'next/dynamic';
 
-import Layouts from "@layouts/Layouts";
+import Layouts from '@layouts/Layouts';
 
-import PageBanner from "@components/PageBanner";
-import CountersSection from "@components/sections/Counters";
-import RenovationSection from "@components/sections/Renovation";
+import PageBanner from '@components/PageBanner';
+import CountersSection from '@components/sections/Counters';
+import RenovationSection from '@components/sections/Renovation';
 
-const TeamSlider = dynamic( () => import("@components/sliders/Team"), { ssr: false } );
-const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
+const TeamSlider = dynamic(() => import('@components/sliders/Team'), {
+  ssr: false,
+});
+const PartnersSlider = dynamic(() => import('@components/sliders/Partners'), {
+  ssr: false,
+});
+const TestimonialSlider = dynamic(
+  () => import('@components/sliders/Testimonial'),
+  { ssr: false }
+);
 
 const About = () => {
   return (
     <Layouts>
-      <PageBanner pageTitle={"About Us"} pageDesc={"our values and vaulted us to the top of our industry."} />
-      
+      <PageBanner
+        pageTitle={'About Us'}
+        pageDesc={'our values and vaulted us to the top of our industry.'}
+      />
+
       {/* About-First Start */}
-      <section className="gap about-first">
-        <div className="container">
-          <div className="row">
-            <h2>Construction industry representing the interests of small and medium-sized building companies</h2>
+      <section className='gap about-first'>
+        <div className='container'>
+          <div className='row'>
+            <h2>
+              Construction industry representing the interests of small and
+              medium-sized building companies
+            </h2>
           </div>
         </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="who-we-are">
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-6'>
+              <div className='who-we-are'>
                 <div>
                   <h3>Who We Are?</h3>
-                  <p>We are resolute in our mission to not only make a difference to the lives of people today but to also leave a legacy for future generations and the planet we live in. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>
+                  <p>
+                    We are resolute in our mission to not only make a difference
+                    to the lives of people today but to also leave a legacy for
+                    future generations and the planet we live in. Our portfolio
+                    includes dozens of successfully completed projects of houses
+                    of different storeys, with high–quality finishes and good
+                    repairs. Building houses is our vocation!
+                  </p>
                 </div>
                 <figure>
-                  <img className="w-100" src="/img/gallery-1.jpeg" alt="About Image One" />
+                  <img
+                    className='w-100'
+                    src='/img/gallery-1.jpeg'
+                    alt='About Image One'
+                  />
                 </figure>
               </div>
             </div>
-            <div className="col-lg-5 offset-lg-1">
-              <div className="who-we-are space">
+            <div className='col-lg-5 offset-lg-1'>
+              <div className='who-we-are space'>
                 <div>
                   <h3>What's in it for me?</h3>
                   <ul>
-                    <li><i className="fa-solid fa-circle-dot" /> High performing, low carbon concrete solution</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Value for workers' skills</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Excellent standards in construction</li>
-                    <li><i className="fa-solid fa-circle-dot" /> An inclusive industry</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Don't take our word for it</li>
+                    <li>
+                      <i className='fa-solid fa-circle-dot' /> High performing,
+                      low carbon concrete solution
+                    </li>
+                    <li>
+                      <i className='fa-solid fa-circle-dot' /> Value for
+                      workers' skills
+                    </li>
+                    <li>
+                      <i className='fa-solid fa-circle-dot' /> Excellent
+                      standards in construction
+                    </li>
+                    <li>
+                      <i className='fa-solid fa-circle-dot' /> An inclusive
+                      industry
+                    </li>
+                    <li>
+                      <i className='fa-solid fa-circle-dot' /> Don't take our
+                      word for it
+                    </li>
                   </ul>
                 </div>
                 <figure>
-                  <img className="w-100" src="/img/gallery-3.jpeg" alt="About Image Two" />
+                  <img
+                    className='w-100'
+                    src='/img/gallery-3.jpeg'
+                    alt='About Image Two'
+                  />
                 </figure>
               </div>
             </div>
@@ -60,7 +103,7 @@ const About = () => {
       <CountersSection />
 
       {/*About How It Works Start */}
-      <section className="gap about-how-it-works light-bg-color">
+      {/* <section className="gap about-how-it-works light-bg-color">
         <div className="heading">
           <figure>
             <img src="/images/heading-icon.png" alt="Heading Icon" />
@@ -113,39 +156,56 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*About How It Works End */}
 
       {/*About Key Benefits Start */}
-      <section className="gap about-key-benefits">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6" >
-              <div className="data">
+      <section className='gap about-key-benefits'>
+        <div className='container'>
+          <div className='row align-items-center'>
+            <div className='col-lg-6'>
+              <div className='data'>
                 <figure>
-                  <img className="w-100" src="/img/service2.jpeg" alt="About key Benefits" />
+                  <img
+                    className='w-100'
+                    src='/img/service2.jpeg'
+                    alt='About key Benefits'
+                  />
                 </figure>
               </div>
             </div>
-            <div className="col-lg-6" >
-              <div className="data">
+            <div className='col-lg-6'>
+              <div className='data'>
                 <h2>Key Benefits</h2>
                 <ul>
                   <li>
-                    <i className="fa-solid fa-check" />
-                    <p>Labor expenses are a common target for cost reduction measures in the construction industry</p>
+                    <i className='fa-solid fa-check' />
+                    <p>
+                      Labor expenses are a common target for cost reduction
+                      measures in the construction industry
+                    </p>
                   </li>
                   <li>
-                    <i className="fa-solid fa-check" />
-                    <p> A good material management system includes proper communication, scheduling,  and tracking tools.</p>
+                    <i className='fa-solid fa-check' />
+                    <p>
+                      {' '}
+                      A good material management system includes proper
+                      communication, scheduling, and tracking tools.
+                    </p>
                   </li>
                   <li>
-                    <i className="fa-solid fa-check" />
-                    <p>Faster supplies can be used upon delivery to a construction site, the better.</p>
+                    <i className='fa-solid fa-check' />
+                    <p>
+                      Faster supplies can be used upon delivery to a
+                      construction site, the better.
+                    </p>
                   </li>
                   <li>
-                    <i className="fa-solid fa-check" />
-                    <p>Effective material management systems not only ensure that materials are in the right place</p>
+                    <i className='fa-solid fa-check' />
+                    <p>
+                      Effective material management systems not only ensure that
+                      materials are in the right place
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -155,14 +215,13 @@ const About = () => {
       </section>
       {/*About Key Benefits End */}
 
-      <TeamSlider noTop />
+      {/* <TeamSlider noTop /> */}
 
       <RenovationSection />
 
       <TestimonialSlider />
 
       <PartnersSlider noTop />
-      
     </Layouts>
   );
 };

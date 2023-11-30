@@ -1,31 +1,40 @@
 {
-    "items": [
-        {
-            "image": "img/slide1.jpeg",
-            "title": "Create the Building You Want Here",
-            "text": "Builty is a construction and architecture environmentally most responsible for any kinds of themes.",
-            "button": {
-                "label": "Start Consulting",
-                "link": "/contact"
-            }
-        },
-        {
-            "image": "img/project5.jpeg",
-            "title": "A Better Way To Build Your Dreams",
-            "text": "Builty is a construction and architecture environmentally most responsible for any kinds of themes.",
-            "button": {
-                "label": "Estimate Price",
-                "link": "/services"
-            }
-        },
-        {
-            "image": "img/articles6.jpeg",
-            "title": "Builty Innovative & Industrial Solutions",
-            "text": "Builty is a construction and architecture environmentally most responsible for any kinds of themes.",
-            "button": {
-                "label": "Start Consulting",
-                "link": "/contact"
-            }
-        }
-    ]
+  "items": [
+    {
+      "image": "img/slide1.jpeg",
+      "title": "Extention And Addition",
+      "text": "Experts in Single & Double-Storey Extensions.",
+      "button": {
+        "label": "Start Consulting",
+        "link": "/services/extensions-and-additions"
+      }
+    },
+    {
+      "image": "img/project5.jpeg",
+      "title": "Renovation",
+      "text": "Customized Renovations, Tailored to Your Family's Needs.",
+      "button": {
+        "label": "Start Consulting",
+        "link": "/services/renovations"
+      }
+    },
+    {
+      "image": "img/articles6.jpeg",
+      "title": "Kitchen and Bathrooms",
+      "text": "Golden 8 Craftsmanship: Turning Vision into Reality for 20 Years.",
+      "button": {
+        "label": "Start Consulting",
+        "link": "/services/kitchen-and-bathrooms"
+      }
+    },
+    {
+      "image": "img/articles6.jpeg",
+      "title": "Granny Flats",
+      "text": "Granny Flats Made Easy: Your Trusted Sydney Builders.",
+      "button": {
+        "label": "Start Consulting",
+        "link": "/services/grannyflats"
+      }
+    }
+  ]
 }

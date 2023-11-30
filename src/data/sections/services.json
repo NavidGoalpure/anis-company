@@ -1,34 +1,44 @@
 {
-    "items": [
-        {
-            "icon": {
-                "light": "/images/icon-1.svg",
-                "dark": "/images/1-icon.png",
-                "alt": "icon"
-            },
-            "title": "Core Planning",
-            "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.",
-            "link": "/services/service-1"
-        },
-        {
-            "icon": {
-                "light": "/images/icon-2.svg",
-                "dark": "/images/2-icon.png",
-                "alt": "icon"
-            },
-            "title": "Traditional Designs",
-            "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.",
-            "link": "/services/service-2"
-        },
-        {
-            "icon": {
-                "light": "/images/icon-3.svg",
-                "dark": "/images/3-icon.png",
-                "alt": "icon"
-            },
-            "title": "Quality Materials",
-            "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.",
-            "link": "/services/service-3"
-        }
-    ]
+  "items": [
+    {
+      "icon": {
+        "light": "/images/icon-1.svg",
+        "dark": "/images/1-icon.png",
+        "alt": "icon"
+      },
+      "title": "Extention And Addition",
+      "text": "Experts in Single & Double-Storey Extensions.",
+      "link": "/services/extensions-and-additions"
+    },
+    {
+      "icon": {
+        "light": "/images/icon-2.svg",
+        "dark": "/images/2-icon.png",
+        "alt": "icon"
+      },
+      "title": "Renovation",
+      "text": "Customized Renovations, Tailored to Your Family's Needs.",
+      "link": "/services/renovations"
+    },
+    {
+      "icon": {
+        "light": "/images/icon-3.svg",
+        "dark": "/images/3-icon.png",
+        "alt": "icon"
+      },
+      "title": "Kitchen and Bathrooms",
+      "text": "Golden 8 Craftsmanship: Turning Vision into Reality for 20 Years.",
+      "link": "/services/kitchen-and-bathrooms"
+    },
+    {
+      "icon": {
+        "light": "/images/icon-3.svg",
+        "dark": "/images/3-icon.png",
+        "alt": "icon"
+      },
+      "title": "Granny Flats",
+      "text": "Granny Flats Made Easy: Your Trusted Sydney Builders.",
+      "link": "/services/grannyflats"
+    }
+  ]
 }
