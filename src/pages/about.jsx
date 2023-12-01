@@ -29,10 +29,7 @@ const About = () => {
       <section className='gap about-first'>
         <div className='container'>
           <div className='row'>
-            <h2>
-              Construction industry representing the interests of small and
-              medium-sized building companies
-            </h2>
+            <h2>Our History and Values</h2>
           </div>
         </div>
         <div className='container'>
@@ -42,12 +39,19 @@ const About = () => {
                 <div>
                   <h3>Who We Are?</h3>
                   <p>
-                    We are resolute in our mission to not only make a difference
-                    to the lives of people today but to also leave a legacy for
-                    future generations and the planet we live in. Our portfolio
-                    includes dozens of successfully completed projects of houses
-                    of different storeys, with high–quality finishes and good
-                    repairs. Building houses is our vocation!
+                    "At Golden8, our distinction lies in our exceptional team.
+                    Comprising devoted professionals, we consistently aim for
+                    excellence in our endeavors. From directors to designer
+                    consultants and builders, our entire team is committed to
+                    providing you with the finest experience throughout the
+                    entire process." At Golden8, our dedication to clients spans
+                    from inception to completion, mirroring our unwavering
+                    commitment since our humble beginnings. We relentlessly
+                    strive to deliver the most efficient, expert, and innovative
+                    housing design and construction services in Sydney.
+                    Simultaneously, our pledge to ethical conduct remains
+                    steadfast, ensuring we meet all obligations to clients,
+                    partners, staff, and suppliers.
                   </p>
                 </div>
                 <figure>
@@ -62,29 +66,16 @@ const About = () => {
             <div className='col-lg-5 offset-lg-1'>
               <div className='who-we-are space'>
                 <div>
-                  <h3>What's in it for me?</h3>
-                  <ul>
-                    <li>
-                      <i className='fa-solid fa-circle-dot' /> High performing,
-                      low carbon concrete solution
-                    </li>
-                    <li>
-                      <i className='fa-solid fa-circle-dot' /> Value for
-                      workers' skills
-                    </li>
-                    <li>
-                      <i className='fa-solid fa-circle-dot' /> Excellent
-                      standards in construction
-                    </li>
-                    <li>
-                      <i className='fa-solid fa-circle-dot' /> An inclusive
-                      industry
-                    </li>
-                    <li>
-                      <i className='fa-solid fa-circle-dot' /> Don't take our
-                      word for it
-                    </li>
-                  </ul>
+                  <h3>About Golden8</h3>
+                  <p>
+                    "At Golden8, our distinction lies in our exceptional team.
+                    Comprising devoted professionals, we consistently aim for
+                    excellence in our endeavors. From directors to designer
+                    consultants and builders, our entire team is committed to
+                    providing you with the finest experience throughout the
+                    entire process."
+                  </p>
+                  <br />
                 </div>
                 <figure>
                   <img
@@ -181,7 +172,7 @@ const About = () => {
                   <li>
                     <i className='fa-solid fa-check' />
                     <p>
-                      Labor expenses are a common target for cost reduction
+                      Labour expenses are a common target for cost reduction
                       measures in the construction industry
                     </p>
                   </li>
