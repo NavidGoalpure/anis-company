@@ -20,16 +20,7 @@
       "text": "Customized Renovations, Tailored to Your Family's Needs.",
       "link": "/services/renovations"
     },
-    {
-      "icon": {
-        "light": "/images/icon-3.svg",
-        "dark": "/images/3-icon.png",
-        "alt": "icon"
-      },
-      "title": "Kitchen and Bathrooms",
-      "text": "Golden 8 Craftsmanship: Turning Vision into Reality for 20 Years.",
-      "link": "/services/kitchen-and-bathrooms"
-    },
+
     {
       "icon": {
         "light": "/images/icon-3.svg",

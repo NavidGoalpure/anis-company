@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "image": "img/slide1.jpeg",
+      "image": "img/slide1.webp",
       "title": "Extention And Addition",
       "text": "Experts in Single & Double-Storey Extensions.",
       "button": {
@@ -10,7 +10,7 @@
       }
     },
     {
-      "image": "img/project5.jpeg",
+      "image": "img/slide2.webp",
       "title": "Renovation",
       "text": "Customized Renovations, Tailored to Your Family's Needs.",
       "button": {
@@ -18,17 +18,9 @@
         "link": "/services/renovations"
       }
     },
+
     {
-      "image": "img/articles6.jpeg",
-      "title": "Kitchen and Bathrooms",
-      "text": "Golden 8 Craftsmanship: Turning Vision into Reality for 20 Years.",
-      "button": {
-        "label": "Start Consulting",
-        "link": "/services/kitchen-and-bathrooms"
-      }
-    },
-    {
-      "image": "img/articles6.jpeg",
+      "image": "img/slide3.webp",
       "title": "Granny Flats",
       "text": "Granny Flats Made Easy: Your Trusted Sydney Builders.",
       "button": {

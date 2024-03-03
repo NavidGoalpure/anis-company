@@ -24,7 +24,7 @@ gallery:
         - image: /img/gallery-6.jpeg
           alt: "image"
 
-        - image: /img/gallery-5.jpeg
+        - image: /img/gallery-5.webp
           alt: "image"
 
     cols: 3 # 2 or 3

@@ -31,19 +31,19 @@ It's time to elevate your home to new heights. Double-storey extensions have the
 gallery: 
   enabled: 1
   items:
-      - image: /img/gallery-3.jpeg
+      - image: /img/extended-3.webp
         alt: "image"
 
-      - image: /img/gallery-2.jpeg
+      - image: /img/extended-2.webp
         alt: "image"
 
-      - image: /img/gallery-1.jpeg
+      - image: /img/extended-1.webp
         alt: "image"
 
-      - image: /img/gallery-4.jpeg
+      - image: /img/extended-4.webp
         alt: "image"
 
-      - image: /img/gallery-5.jpeg
+      - image: /img/extended-5.webp
         alt: "image"          
 
 

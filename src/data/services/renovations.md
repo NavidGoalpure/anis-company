@@ -20,19 +20,19 @@ We take pride in crafting distinctive designs that set us apart from standard kn
 gallery: 
   enabled: 1
   items:
-      - image: /img/gallery-1.jpeg
+      - image: /img/gallery-1.webp
         alt: "image"
 
-      - image: /img/gallery-2.jpeg
+      - image: /img/gallery-2.webp
         alt: "image"
 
-      - image: /img/gallery-3.jpeg
+      - image: /img/gallery-3.webp
         alt: "image"
 
-      - image: /img/gallery-4.jpeg
+      - image: /img/gallery-4.webp
         alt: "image"
 
-      - image: /img/gallery-5.jpeg
+      - image: /img/gallery-5.webp
         alt: "image"          
 
 

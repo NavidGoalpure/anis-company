@@ -57,7 +57,7 @@ const About = () => {
                 <figure>
                   <img
                     className='w-100'
-                    src='/img/gallery-1.jpeg'
+                    src='/img/gallery-1.webp'
                     alt='About Image One'
                   />
                 </figure>
@@ -80,7 +80,7 @@ const About = () => {
                 <figure>
                   <img
                     className='w-100'
-                    src='/img/gallery-3.jpeg'
+                    src='/img/gallery-3.webp'
                     alt='About Image Two'
                   />
                 </figure>
@@ -104,7 +104,7 @@ const About = () => {
         </div>
         <div className="container">
           <figure style={{"position": "relative", "zIndex": "9"}}>
-            <img className="w-100" src="/img/gallery-2.jpeg" alt="About How It Works" />
+            <img className="w-100" src="/img/gallery-2.webp" alt="About How It Works" />
           </figure>
         </div>
         <div className="container">
@@ -159,7 +159,7 @@ const About = () => {
                 <figure>
                   <img
                     className='w-100'
-                    src='/img/service2.jpeg'
+                    src='/img/about-1.webp'
                     alt='About key Benefits'
                   />
                 </figure>

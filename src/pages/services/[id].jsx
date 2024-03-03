@@ -17,7 +17,7 @@ const ServiceDetail = ({ postData }) => {
             <>
               {postData.description0.enabled == 1 && (
                 <div className='row'>
-                  <div className='col-lg-6'>
+                  <div className='col-lg-12'>
                     <div className='who-we-are'>
                       <div
                         dangerouslySetInnerHTML={{
@@ -26,7 +26,7 @@ const ServiceDetail = ({ postData }) => {
                       />
                     </div>
                   </div>
-                  <div className='col-lg-5 offset-lg-1'>
+                  <div className='col-lg-12 offset-lg-1'>
                     <div className='who-we-are'>
                       <div
                         dangerouslySetInnerHTML={{

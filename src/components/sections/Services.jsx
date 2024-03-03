@@ -5,7 +5,7 @@ const ServicesSection = () => {
   return (
     <section className='gap service-style-one'>
       <div className='container'>
-        <div className='row '>
+        <div className='desktop-scroll-row '>
           {Data.items.map((item, key) => (
             <div
               key={`services-item-${key}`}

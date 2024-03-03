@@ -29,20 +29,11 @@
       },
 
       {
-        "label": "Projects",
-        "link": "/projects",
-        "children": []
-      },
-      {
         "label": "Services",
         "link": "/services",
         "children": []
       },
-      {
-        "label": "Blog",
-        "link": "/blog",
-        "children": []
-      },
+
       {
         "label": "Contact",
         "link": "/contact",
@@ -57,8 +48,8 @@
     },
     "info": {
       "address": "Level 5 Nexus Building 4 Columbia Baulkham Hills NSW 2153",
-      "tel": "0478 172 696",
-      "email": "navid@navid.com"
+      "tel": "(02)8824 5390",
+      "email": "golden8@golden8.com"
     },
     "copy": "Builty Construction Company <i class='fa-solid fa-heart'></i> © 2023 <a href='https://themeforest.net/user/bslthemes/portfolio'>bslthemes</a> All rights reserved"
   },

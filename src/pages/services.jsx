@@ -206,9 +206,10 @@ const Services = (props) => {
       </section>
       {/* Service Style Two End */}
 
-      <CountersSection />
-
       <CallToActionSection />
+      <br />
+      <br />
+      <CountersSection />
     </Layouts>
   );
 };

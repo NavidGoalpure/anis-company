@@ -37,12 +37,12 @@ const Home1 = (props) => {
         <ServicesSection />
         <AboutSection />
         <CountersSection />
-        <ProjectsSlider projects={props.projects} />
+        {/* <ProjectsSlider projects={props.projects} /> */}
         {/* <TeamSlider /> */}
-        <FeaturesSection />
-        <PartnersSlider />
+        {/* <FeaturesSection /> */}
         <RenovationSection />
         <TestimonialSlider />
+        <PartnersSlider />
         {/* <LatestPostsSection posts={props.posts} /> */}
       </>
     </Layouts>

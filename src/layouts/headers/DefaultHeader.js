@@ -262,8 +262,8 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                           </>
                         )}
                         {contactButton != 1 && (
-                          <a href='tel:1300 994 525' className='theme-btn'>
-                            1300 994 525
+                          <div className='theme-btn'>
+                            (02)8824 5390
                             <i>
                               <svg
                                 xmlns='http://www.w3.org/2000/svg'
@@ -296,7 +296,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                                 </g>
                               </svg>
                             </i>
-                          </a>
+                          </div>
                         )}
                         {contactButton == 1 && (
                           <Link href='/contact' className='theme-btn simple'>

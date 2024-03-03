@@ -4,6 +4,8 @@ import Accordion from 'react-bootstrap/Accordion';
 import appData from '@data/app.json';
 import { Formik } from 'formik';
 
+import AboutSection from '@components/sections/About';
+
 const Contact = () => {
   const faqData = {
     items: [
@@ -385,8 +387,9 @@ const Contact = () => {
         </div>
       </section> */}
       {/* Contact Faqs End */}
-
+      <AboutSection />
       {/* Contact Map Start */}
+
       <div className='contact-map container' style={{ margin: '3rem auto' }}>
         <iframe
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19777.27221494922!2d151.20827431872905!3d-33.86882165659873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae4b5d2a5b67%3A0xf2dd2e9ab91e95d!2sSydney%20Central%20Business%20District%2C%20Sydney%2C%20New%20South%20Wales!5e0!3m2!1sen!2s!4v1655124094484!5m2!1sen!2s'

@@ -16,16 +16,9 @@ const DefaultFooter = () => {
                   />
                 </Link>
               </div>
-              <div className='contact-info d-flex-all'>
-                <div className='images d-flex-all justify-content-start'>
-                  <i className='fas fa-phone' style={{ color: 'white' }} />
-                </div>
-                <p>
-                  <span>1300 994 525</span> free call !
-                </p>
-              </div>
+
               <div className='theme-btn'>
-                0478 172 696 <i className='fa-solid fa-angles-right' />
+                (02)8824 5390 <i className='fa-solid fa-angles-right' />
               </div>
             </div>
           </div>
