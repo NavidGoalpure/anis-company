@@ -8,9 +8,7 @@ import { getSortedProjectsData } from '@library/projects';
 import AboutSection from '@components/sections/About';
 import ServicesSection from '@components/sections/Services';
 import CountersSection from '@components/sections/Counters';
-import FeaturesSection from '@components/sections/Features';
 import RenovationSection from '@components/sections/Renovation';
-import LatestPostsSection from '@components/sections/LatestPosts';
 
 const HeroSlider = dynamic(() => import('@components/sliders/Hero'), {
   ssr: false,
@@ -22,12 +20,6 @@ const TestimonialSlider = dynamic(
   () => import('@components/sliders/Testimonial'),
   { ssr: false }
 );
-const ProjectsSlider = dynamic(() => import('@components/sliders/Projects'), {
-  ssr: false,
-});
-const TeamSlider = dynamic(() => import('@components/sliders/Team'), {
-  ssr: false,
-});
 
 const Home1 = (props) => {
   return (
