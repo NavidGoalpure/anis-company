@@ -39,7 +39,7 @@ const About = () => {
                 <div>
                   <h3>Who We Are?</h3>
                   <p>
-                    "At Golden8, our distinction lies in our exceptional team.
+                    {`At Golden8, our distinction lies in our exceptional team.
                     Comprising devoted professionals, we consistently aim for
                     excellence in our endeavors. From directors to designer
                     consultants and builders, our entire team is committed to
@@ -51,7 +51,7 @@ const About = () => {
                     housing design and construction services in Sydney.
                     Simultaneously, our pledge to ethical conduct remains
                     steadfast, ensuring we meet all obligations to clients,
-                    partners, staff, and suppliers.
+                    partners, staff, and suppliers.`}
                   </p>
                 </div>
                 <figure>
@@ -68,12 +68,12 @@ const About = () => {
                 <div>
                   <h3>About Golden8</h3>
                   <p>
-                    "At Golden8, our distinction lies in our exceptional team.
+                    {`At Golden8, our distinction lies in our exceptional team.
                     Comprising devoted professionals, we consistently aim for
                     excellence in our endeavors. From directors to designer
                     consultants and builders, our entire team is committed to
                     providing you with the finest experience throughout the
-                    entire process."
+                    entire process.`}
                   </p>
                   <br />
                 </div>

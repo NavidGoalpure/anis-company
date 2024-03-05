@@ -65,7 +65,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
       document.body.classList.remove('light-d');
       lightmodeToggle.src = '/images/sun.png';
     }
-  }, []);
+  }, [themeUI]);
 
   return (
     <header className='header-style-one'>
