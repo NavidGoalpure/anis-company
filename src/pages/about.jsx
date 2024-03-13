@@ -5,6 +5,7 @@ import Layouts from '@layouts/Layouts';
 import PageBanner from '@components/PageBanner';
 import CountersSection from '@components/sections/Counters';
 import RenovationSection from '@components/sections/Renovation';
+import AboutImage1 from '../../public/img/about-1.webp';
 
 const TeamSlider = dynamic(() => import('@components/sliders/Team'), {
   ssr: false,
@@ -159,7 +160,7 @@ const About = () => {
                 <figure>
                   <img
                     className='w-100'
-                    src='/img/about-1.webp'
+                    src={AboutImage1}
                     alt='About key Benefits'
                   />
                 </figure>
