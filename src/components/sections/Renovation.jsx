@@ -26,9 +26,7 @@ const RenovationSection = () => {
                       alt={Data.image_circle_text.alt}
                     />
                   </figure>
-                  <Link href={Data.link}>
-                    <i className='fa-solid fa-arrow-up-long'></i>
-                  </Link>
+                  <i className='fa-solid fa-arrow-up-long'></i>
                 </div>
               </Link>
             </div>
