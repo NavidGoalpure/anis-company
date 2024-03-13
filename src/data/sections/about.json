@@ -1,10 +1,8 @@
 {
   "image1": {
-    "url": "/img/about-1.webp",
     "alt": "Image One"
   },
   "image2": {
-    "url": "/img/about-2.webp",
     "alt": "Image Two"
   },
 

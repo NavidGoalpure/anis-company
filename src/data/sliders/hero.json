@@ -1,7 +1,6 @@
 {
   "items": [
     {
-      "image": "img/slide1.webp",
       "title": "Extention And Addition",
       "text": "Experts in Single & Double-Storey Extensions.",
       "button": {
@@ -10,7 +9,6 @@
       }
     },
     {
-      "image": "img/slide2.webp",
       "title": "Renovation",
       "text": "Customized Renovations, Tailored to Your Family's Needs.",
       "button": {
@@ -20,7 +18,6 @@
     },
 
     {
-      "image": "img/slide3.webp",
       "title": "Granny Flats",
       "text": "Granny Flats Made Easy: Your Trusted Sydney Builders.",
       "button": {
