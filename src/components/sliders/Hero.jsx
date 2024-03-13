@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Data from '@data/sliders/hero';
 import Link from 'next/link';
 import Image from 'next/image';
+import Slide1 from './images/slide1.webp';
 
 const HeroSlider = () => {
   return (
@@ -19,7 +20,7 @@ const HeroSlider = () => {
           {Data.items.map((item, key) => (
             <SwiperSlide key={`hs-slide-${key}`} className='swiper-slide'>
               <div className='f-slider-layer'>
-                <img src={item.image} alt={item.title} />
+                <Image src={Slide1} alt={item.title} />
                 <div className='f-slider-one-data'>
                   <h1>{item.title}</h1>
                   <p>{item.text}</p>
