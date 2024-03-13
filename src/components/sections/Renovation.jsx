@@ -19,14 +19,24 @@ const RenovationSection = () => {
               <p>{Data.description}</p>
               <Link href={Data.link}>
                 <div className='bbtn'>
-                  <figure>
+                  <figure style={{ position: 'relative' }}>
                     <img
                       className='w-auto circle-layer'
                       src={Data.image_circle_text.url}
                       alt={Data.image_circle_text.alt}
                     />
+                    <i
+                      style={{
+                        color: 'white',
+                        position: 'absolute',
+                        top: '50%',
+                        left: '50%',
+                        transform: 'translate(-50%, -50%)',
+                        fontSize: 'x-large',
+                      }}
+                      className='fa-solid fa-arrow-up-long'
+                    ></i>
                   </figure>
-                  <i className='fa-solid fa-arrow-up-long'></i>
                 </div>
               </Link>
             </div>

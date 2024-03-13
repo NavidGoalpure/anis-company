@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import appData from '@data/app.json';
+import Logo from '../../assessts/images/Builty-Logo.png';
 
 const DefaultFooter = () => {
   return (
@@ -10,10 +11,7 @@ const DefaultFooter = () => {
             <div className='footer-first'>
               <div className='footer-logo'>
                 <Link href='/'>
-                  <img
-                    src={appData.footer.logo.image}
-                    alt={appData.footer.logo.alt}
-                  />
+                  <img src={Logo.src} alt={appData.footer.logo.alt} />
                 </Link>
               </div>
 

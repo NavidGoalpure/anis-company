@@ -2,20 +2,13 @@ import { useState } from 'react';
 import PageBanner from '@components/PageBanner';
 import Layouts from '@layouts/Layouts';
 import Nav from 'react-bootstrap/Nav';
-import Tab from 'react-bootstrap/Tab';
 import Link from 'next/link';
-import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.css';
-
 import { getSortedServicesData } from '@library/services';
-
 import CallToActionSection from '@components/sections/CallToAction';
-import ServicesSection from '@components/sections/Services';
 import CountersSection from '@components/sections/Counters';
 
 const Services = (props) => {
-  const [isOpen, setOpen] = useState(false);
-  console.log('navid Props=', props);
   return (
     <Layouts>
       <PageBanner

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import appData from '@data/app.json';
 import { useLocalStorage } from '@common/useLocalStorage';
+import Logo from '../../assessts/images/Builty-Logo.png';
 
 const DefaultHeader = ({ contactButton, cartButton }) => {
   const navItems = [];
@@ -79,10 +80,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                     <div className='header-logo'>
                       <Link href='/'>
                         <figure>
-                          <img
-                            src={appData.header.logo.image}
-                            alt={appData.header.logo.alt}
-                          />
+                          <img src={Logo.src} alt={appData.header.logo.alt} />
                         </figure>
                       </Link>
                     </div>
@@ -314,10 +312,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
           <div className='mobile-nav mobile-menu' id='mobile-nav'>
             <div className='res-log'>
               <Link href='/'>
-                <img
-                  src={appData.header.logo.image}
-                  alt={appData.header.logo.alt}
-                />
+                <img src={Logo.src} alt={appData.header.logo.alt} />
               </Link>
             </div>
 

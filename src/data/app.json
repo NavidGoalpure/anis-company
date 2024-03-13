@@ -8,7 +8,6 @@
   },
   "header": {
     "logo": {
-      "image": "/img/Builty-Logo.png",
       "alt": "logo"
     },
     "menu": [
@@ -38,7 +37,6 @@
   },
   "footer": {
     "logo": {
-      "image": "/img/Builty-Logo.png",
       "alt": "logo"
     },
     "info": {

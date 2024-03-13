@@ -2,7 +2,6 @@ import Link from 'next/link';
 import Date from '@library/date';
 
 const PaginationPage = ({ items }) => {
-  console.log('navid items=', items);
   return (
     <>
       {items.map((item, index) => (
