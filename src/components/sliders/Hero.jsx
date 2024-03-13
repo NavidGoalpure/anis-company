@@ -5,7 +5,19 @@ import Data from '@data/sliders/hero';
 import Link from 'next/link';
 import Image from 'next/image';
 import Slide1 from './images/slide1.webp';
+import Slide2 from './images/slide2.webp';
+import Slide3 from './images/slide3.webp';
 
+function getCorrectSlide(key) {
+  switch (key) {
+    case 0:
+      return Slide1;
+    case 1:
+      return Slide2;
+    default:
+      return Slide3;
+  }
+}
 const HeroSlider = () => {
   return (
     <section
@@ -20,7 +32,7 @@ const HeroSlider = () => {
           {Data.items.map((item, key) => (
             <SwiperSlide key={`hs-slide-${key}`} className='swiper-slide'>
               <div className='f-slider-layer'>
-                <Image src={Slide1} alt={item.title} />
+                <Image src={getCorrectSlide(key)} alt={item.title} />
                 <div className='f-slider-one-data'>
                   <h1>{item.title}</h1>
                   <p>{item.text}</p>
