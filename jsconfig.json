@@ -3,10 +3,11 @@
     "paths": {
       "@/*": ["./*"],
       "@components/*": ["./src/components/*"],
+      "@pageComponents/*": ["./src/pageComponents/*"],
       "@layouts/*": ["./src/layouts/*"],
       "@library/*": ["./src/lib/*"],
       "@data/*": ["./src/data/*"],
-      "@common/*": ["./src/common/*"],
+      "@common/*": ["./src/common/*"]
     }
   }
 }
