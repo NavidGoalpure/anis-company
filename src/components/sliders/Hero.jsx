@@ -19,7 +19,7 @@ const HeroSlider = () => {
           {Data.items.map((item, key) => (
             <SwiperSlide key={`hs-slide-${key}`} className='swiper-slide'>
               <div className='f-slider-layer'>
-                <Image src={item.image} alt={item.title} />
+                <img src={item.image} alt={item.title} />
                 <div className='f-slider-one-data'>
                   <h1>{item.title}</h1>
                   <p>{item.text}</p>
