@@ -2,7 +2,7 @@ import Layouts from '@layouts/Layouts';
 import PageBanner from '@components/PageBanner';
 import ImageView from '@components/ImageView';
 import Accordion from 'react-bootstrap/Accordion';
-
+import { getImagesArray } from '@pageComponents/services/utils';
 import { getAllServicesIds, getServiceData } from '@library/services';
 
 const ServiceDetail = ({ postData }) => {
@@ -44,24 +44,27 @@ const ServiceDetail = ({ postData }) => {
             <>
               {postData.gallery.enabled == 1 && (
                 <div className='row s-d-gallery'>
-                  {postData.gallery.items.map((item, key) => (
-                    <div
-                      key={`gallery-item-${key}`}
-                      className={
-                        key == 0 ? 'col-lg-12' : 'col-lg-3 col-md-6 col-sm-12'
-                      }
-                    >
-                      <figure>
-                        <a data-fancybox='gallery' href={item.image}>
-                          <img
-                            className='img-fluid w-100'
-                            src={item.image}
-                            alt={item.alt}
-                          />
-                        </a>
-                      </figure>
-                    </div>
-                  ))}
+                  {postData.gallery.items.map((item, key) => {
+                    const gallery = getImagesArray(postData.id);
+                    return (
+                      <div
+                        key={`gallery-item-${key}`}
+                        className={
+                          key == 0 ? 'col-lg-12' : 'col-lg-3 col-md-6 col-sm-12'
+                        }
+                      >
+                        <figure>
+                          <a data-fancybox='gallery' href={item.image}>
+                            <img
+                              className='img-fluid w-100'
+                              src={gallery[key].src}
+                              alt={item.alt}
+                            />
+                          </a>
+                        </figure>
+                      </div>
+                    );
+                  })}
                 </div>
               )}
               <ImageView />

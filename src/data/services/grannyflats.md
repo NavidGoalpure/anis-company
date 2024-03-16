@@ -21,20 +21,15 @@ Looking for an affordable Granny Flat builder? Contact us!</h3>
 gallery: 
   enabled: 1
   items:
-      - image: /img/granny-3.webp
-        alt: "image"
+      - alt: "image"
 
-      - image: /img/granny-2.webp
-        alt: "image"
+      - alt: "image"
 
-      - image: /img/granny-1.webp
-        alt: "image"
+      - alt: "image"
 
-      - image: /img/granny-4.webp
-        alt: "image"
+      - alt: "image"
 
-      - image: /img/granny-5.webp
-        alt: "image"          
+      - alt: "image"          
 
 accordion:
   enabled: 1

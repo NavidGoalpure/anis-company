@@ -20,20 +20,15 @@ We take pride in crafting distinctive designs that set us apart from standard kn
 gallery: 
   enabled: 1
   items:
-      - image: /img/gallery-1.webp
-        alt: "image"
+      - alt: "image"
 
-      - image: /img/gallery-2.webp
-        alt: "image"
+      - alt: "image"
 
-      - image: /img/gallery-3.webp
-        alt: "image"
+      - alt: "image"
 
-      - image: /img/gallery-4.webp
-        alt: "image"
+      - alt: "image"
 
-      - image: /img/gallery-5.webp
-        alt: "image"          
+      - alt: "image"          
 
 
 accordion:
