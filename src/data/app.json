@@ -2,7 +2,7 @@
   "settings": {
     "siteName": "Sydney Builder",
     "preloader": {
-      "image": "/img/Builty-Logo-Black-Home.svg",
+      "image": "/img/Black-Home.svg",
       "alt": "logo"
     }
   },
@@ -44,7 +44,7 @@
       "tel": "(02)8824 5390",
       "email": "golden8@golden8.com"
     },
-    "copy": "Builty Construction Company <i class='fa-solid fa-heart'></i> © 2023 <a href='https://themeforest.net/user/bslthemes/portfolio'>bslthemes</a> All rights reserved"
+    "copy": "Sydney Builder Construction Company <i class='fa-solid fa-heart'></i> © 2023 <a href='https://themeforest.net/user/bslthemes/portfolio'>bslthemes</a> All rights reserved"
   },
   "social": []
 }

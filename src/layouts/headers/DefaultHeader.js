@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import appData from '@data/app.json';
 import { useLocalStorage } from '@common/useLocalStorage';
 import Logo from '../../assessts/images/Builty-Logo.png';
+import Project1 from './images/project2.webp';
 
 const DefaultHeader = ({ contactButton, cartButton }) => {
   const navItems = [];
@@ -375,7 +376,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
             </p>
 
             <figure>
-              <img src='/img/project1.jpeg' alt='image' />
+              <img src={Project1.src} alt='image' />
             </figure>
 
             <h3>Get in touch</h3>
