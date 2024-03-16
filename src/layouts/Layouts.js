@@ -1,9 +1,9 @@
-import { useEffect } from "react";
-import { scrollAnimation } from "@common/scrollAnims";
+import { useEffect } from 'react';
+import { scrollAnimation } from '@common/scrollAnims';
 
-import Footer from "./footers/Index";
-import Header from "./headers/Index";
-import Preloader from "./Preloader";
+import Footer from './footers/Index';
+import Header from './headers/Index';
+import Preloader from './preloader';
 
 const Layouts = ({
   children,
@@ -12,7 +12,7 @@ const Layouts = ({
   noHeader,
   noFooter,
   contactButton,
-  cartButton
+  cartButton,
 }) => {
   useEffect(() => {
     scrollAnimation();
@@ -37,11 +37,11 @@ const Layouts = ({
       )}
 
       {children}
-      
+
       {!noFooter && <Footer footer={footer} />}
 
-      <button id="scrollTop" className="scrollTopStick">
-        <i className="fa-solid fa-arrow-up" />
+      <button id='scrollTop' className='scrollTopStick'>
+        <i className='fa-solid fa-arrow-up' />
       </button>
     </>
   );

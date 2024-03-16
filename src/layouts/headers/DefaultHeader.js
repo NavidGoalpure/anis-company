@@ -380,9 +380,9 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
             </figure>
 
             <h3>Get in touch</h3>
-            <p className='num'>(+380) 50 318 47 07</p>
+            <p className='num'>(02)8824 5390</p>
             <p className='adrs'>
-              65 Allerton Street 901 N Pitt Str, Suite 170, VA 22314, USA
+              Level 5 Nexus Building 4 Columbia Baulkham Hills NSW 2153
             </p>
 
             <div className='social-medias'>

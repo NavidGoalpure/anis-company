@@ -1,10 +1,6 @@
 {
   "settings": {
-    "siteName": "Sydney Builder",
-    "preloader": {
-      "image": "/img/Black-Home.svg",
-      "alt": "logo"
-    }
+    "siteName": "Sydney Builder"
   },
   "header": {
     "logo": {

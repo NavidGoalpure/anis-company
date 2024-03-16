@@ -1,16 +1,13 @@
 import dynamic from 'next/dynamic';
-
 import Layouts from '@layouts/Layouts';
-
 import PageBanner from '@components/PageBanner';
 import CountersSection from '@components/sections/Counters';
 import RenovationSection from '@components/sections/Renovation';
 import AboutImage1 from '@pageComponents/about/images/about-1.webp';
-import AboutImage2 from '@pageComponents/about/images/about-2.webp';
 
-const TeamSlider = dynamic(() => import('@components/sliders/Team'), {
-  ssr: false,
-});
+// const TeamSlider = dynamic(() => import('@components/sliders/Team'), {
+//   ssr: false,
+// });
 const PartnersSlider = dynamic(() => import('@components/sliders/Partners'), {
   ssr: false,
 });
@@ -56,13 +53,6 @@ const About = () => {
                     partners, staff, and suppliers.`}
                   </p>
                 </div>
-                <figure>
-                  <img
-                    className='w-100'
-                    src='/img/gallery-1.webp'
-                    alt='About Image One'
-                  />
-                </figure>
               </div>
             </div>
             <div className='col-lg-5 offset-lg-1'>
@@ -79,13 +69,6 @@ const About = () => {
                   </p>
                   <br />
                 </div>
-                <figure>
-                  <img
-                    className='w-100'
-                    src={AboutImage2}
-                    alt='About Image Two'
-                  />
-                </figure>
               </div>
             </div>
           </div>
@@ -161,7 +144,7 @@ const About = () => {
                 <figure>
                   <img
                     className='w-100'
-                    src={AboutImage1}
+                    src={AboutImage1.src}
                     alt='About key Benefits'
                   />
                 </figure>
