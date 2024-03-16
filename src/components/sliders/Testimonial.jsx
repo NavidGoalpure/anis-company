@@ -1,6 +1,6 @@
 import { sliderProps } from '@common/sliderProps';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import TestimonialImage from './images/TestimonialImage.jpg';
 import Data from '@data/sliders/testimonial';
 
 const TestimonialSlider = () => {
@@ -70,11 +70,16 @@ const TestimonialSlider = () => {
               <div className='swiper-pagination' />
             </Swiper>
           </div>
-          {/* <div className='col-lg-6'>
+          <div className='col-lg-6'>
             <figure>
-              <img src={Data.image.url} alt={Data.image.alt} />
+              <img
+                src={TestimonialImage.src}
+                alt={'Testimonial Image'}
+                style={{ width: '100%' }}
+                loading='lazy'
+              />
             </figure>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

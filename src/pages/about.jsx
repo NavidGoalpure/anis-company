@@ -41,12 +41,12 @@ const About = () => {
                 <div>
                   <h3>Who We Are?</h3>
                   <p>
-                    {`At Golden8, our distinction lies in our exceptional team.
+                    {`At Sydney Builder, our distinction lies in our exceptional team.
                     Comprising devoted professionals, we consistently aim for
                     excellence in our endeavors. From directors to designer
                     consultants and builders, our entire team is committed to
                     providing you with the finest experience throughout the
-                    entire process." At Golden8, our dedication to clients spans
+                    entire process." At Sydney Builder, our dedication to clients spans
                     from inception to completion, mirroring our unwavering
                     commitment since our humble beginnings. We relentlessly
                     strive to deliver the most efficient, expert, and innovative
@@ -68,9 +68,9 @@ const About = () => {
             <div className='col-lg-5 offset-lg-1'>
               <div className='who-we-are space'>
                 <div>
-                  <h3>About Golden8</h3>
+                  <h3>About Sydney Builder</h3>
                   <p>
-                    {`At Golden8, our distinction lies in our exceptional team.
+                    {`At Sydney Builder, our distinction lies in our exceptional team.
                     Comprising devoted professionals, we consistently aim for
                     excellence in our endeavors. From directors to designer
                     consultants and builders, our entire team is committed to

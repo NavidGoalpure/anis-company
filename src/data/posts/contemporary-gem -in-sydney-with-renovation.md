@@ -12,7 +12,7 @@ category:
 
 #full details
 author:
-    name: "Golden8"
+    name: "Sydney Builder"
     avatar: "/img/blog-author-img.jpg"
 
 gallery:
@@ -51,7 +51,7 @@ The exterior facade captivates with its sleek lines and contemporary allure. A h
 
 ### Innovative Interior Design:
 
-Step beyond the entrance, and a world of luxury and innovation unfolds. Golden8's expertise shines in the open-concept living areas, seamlessly connecting spaces for both social gatherings and private retreats. The kitchen, a focal point of the home, showcases state-of-the-art appliances and custom cabinetry, making it an inviting hub for culinary creativity.
+Step beyond the entrance, and a world of luxury and innovation unfolds. Sydney Builder's expertise shines in the open-concept living areas, seamlessly connecting spaces for both social gatherings and private retreats. The kitchen, a focal point of the home, showcases state-of-the-art appliances and custom cabinetry, making it an inviting hub for culinary creativity.
 
 ### Masterful Craftsmanship:
 

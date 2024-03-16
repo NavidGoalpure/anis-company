@@ -12,7 +12,7 @@ category:
 
 #full details
 author:
-  name: 'Golden8'
+  name: 'Sydney Builder'
   avatar: '/img/blog-author-img.jpg'
 
 gallery:
