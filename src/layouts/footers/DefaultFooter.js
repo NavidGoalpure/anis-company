@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import appData from '@data/app.json';
 import Logo from '../../assessts/images/Builty-Logo.png';
+import Image from 'next/image';
+import HousePaintingLogo from './HousePaintingLogo.svg';
 
 const DefaultFooter = () => {
   return (
@@ -151,19 +153,27 @@ const DefaultFooter = () => {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="footer-col">
-                    <h3>Newsletter</h3>
-                    <p>Signup for our weekly newsletter to get the latest news.</p>
-                    <form action={appData.settings.mailchimp.url} method="post" target="_blank">
-                        <input type="email" name="EMAIL" placeholder="Enter your email." required />
-                        <input type="hidden" name={appData.settings.mailchimp.key} />
-                        <button type="submit">
-                            <i className="fa-solid fa-arrow-up-long" />
-                        </button>
-                    </form>
-                </div>
-            </div> */}
+            <div className='col-lg-4 col-md-6 col-sm-12'>
+              <div className='footer-col'>
+                <h3>Standards</h3>
+                <a href='https://www.housepainting.sydney' target='_blank'>
+                  <Image
+                    src={HousePaintingLogo}
+                    alt='House Painting Sydney Logo'
+                    style={{
+                      width: '3rem',
+                      height: 'auto',
+                      marginRight: '1rem',
+                    }}
+                    loading='lazy'
+                    decoding='async'
+                  />
+                  <span style={{ color: '#b7b7b7' }}>
+                    Trusted By House Painting
+                  </span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
